@@ -131,10 +131,10 @@ r saferaT
 const dataFormatada = new Intl.DataTimeFormat('pt-BR', {
     da
 
-timeStyle: 'shor  t'  ,.formatt(tarefa.dataCriacao);
+timeStyle: 'shor  t'  ,.formatt(tarefa   ataCriacao);
 
 li.innerHTML = `<strong>${tarefa.titulo}</strong>
-<span></s`rohs''        : elytSe
+<span>(Criada em: ${dataFormatada})</span>`;rohs''        : elytSe
 })
 
 
